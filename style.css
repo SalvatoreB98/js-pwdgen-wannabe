@@ -1,0 +1,23 @@
+html{
+    font-family: sans-serif;
+}
+h1{
+    font-size: 25px;
+}
+.wrap{
+    width: 75%;
+    margin: auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 25px;
+    border: 1px solid rgb(179, 179, 179);
+}
+#pw-suggested{
+    margin-left: 50px;
+    font-size: 20px ;
+}
