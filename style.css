@@ -23,20 +23,28 @@ nav img{
     padding: 20px;
 }
 h1{
-    font-size: 20px;
+    font-size: 50px;
     color: darkgray;
     color: #001533;
-    width: 50%;
 }
 .wrap{
     width: 75%;
     margin: auto;
 }
 .container{
-    padding: 25px;
+    padding: 50px 25px;
     position: relative;
     background-color: rgb(248, 248, 248);
     border-radius: 10px;
+    text-align: center;
+    filter: drop-shadow(0 0 0.75rem rgb(184, 184, 184));
+    color: #001533;
+}
+.icon-container{
+    text-align: center;
+}
+.icon-container .fa{
+    font-size: 50px;
 }
 .reload{
     position: absolute;
@@ -44,13 +52,12 @@ h1{
     right: 10px;
     background-color: white;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(214, 214, 214);
     border-radius: 5px;
     transition: background-color 1s, color 0.5s;
 }
 #pw-suggested{
-    font-size: 30px ;
-    color: #001533;
+    font-size: 50px ;
 }
 .reload:hover{
     background-color: rgb(44, 44, 44);
